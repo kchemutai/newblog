@@ -19,3 +19,6 @@ loginManager.login_message_category = 'info'
 migrate = Migrate(app, db)
 
 from blog import routes, models
+
+if __name__ == "__main__":
+    app.run(debug=True)
